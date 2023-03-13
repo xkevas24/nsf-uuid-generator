@@ -1,0 +1,27 @@
+{
+  "name": "nsf-uuid-generator",
+  "version": "1.0.0",
+  "description": "nsf产品自测demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "build": "node index.js",
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkevas24/nsf-uuid5-generator.git"
+  },
+  "author": "许潇",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xkevas24/nsf-uuid5-generator/issues"
+  },
+  "homepage": "https://github.com/xkevas24/nsf-uuid5-generator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
